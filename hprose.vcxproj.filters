@@ -13,5 +13,87 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\client">
+      <UniqueIdentifier>{0cc3f96d-0712-42e3-acab-b41c38abdf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ext">
+      <UniqueIdentifier>{f783b1d2-f064-459f-978e-7c07c54894f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\common">
+      <UniqueIdentifier>{aa24470f-241e-4f23-9bcb-68669ccba2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\io">
+      <UniqueIdentifier>{5714f613-2574-4070-8874-a3251d320ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\client\asio">
+      <UniqueIdentifier>{896326fb-a0c1-4334-9609-c84278ac43a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hprose\client.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\common.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\config.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\ClassManager.hpp">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\HproseFormatter.hpp">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\HproseReader.hpp">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\HproseTags.hpp">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\HproseTypes.hpp">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\io\HproseWriter.hpp">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\common\Any.hpp">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\common\HproseException.hpp">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\common\IntUtil.hpp">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\common\UTF8Util.hpp">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\ext\BigInteger.hpp">
+      <Filter>头文件\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\ext\CTime.hpp">
+      <Filter>头文件\ext</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\client\asio\HproseHTTPClient.hpp">
+      <Filter>头文件\client\asio</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\client\CookieManager.hpp">
+      <Filter>头文件\client</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\client\HproseClient.hpp">
+      <Filter>头文件\client</Filter>
+    </ClInclude>
+    <ClInclude Include="hprose\client\HproseHTTPClient.hpp">
+      <Filter>头文件\client</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

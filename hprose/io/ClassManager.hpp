@@ -26,10 +26,13 @@
 #endif
 
 #include <hprose/common.hpp>
-
-#include <boost/tr1/unordered_map.hpp>
+#include <tr1/unordered_map>
+#include <stdio.h>
+//#include <boost/tr1/unordered_map.hpp>
+#include <boost/unordered_map.hpp>
 #include <boost/thread/shared_mutex.hpp>
 #include <boost/thread/locks.hpp>
+#include <xstring>
 
 #define HPROSE_REG_CLASS(Class) \
     hprose::ClassManager::SharedInstance()->RegisterClass(&typeid(Class), #Class)
